@@ -26,7 +26,7 @@ It allows you to view container status, see exposed ports, and run common Docker
 ## Setup
 
 1. **Install [SwiftBar](https://swiftbar.app/)** if you haven't already.
-2. **Create a symlink of the plugin script** (`swiftbar/docker.5m.py`) to your SwiftBar plugins directory.
+2. **Create a symlink of the plugin script** (`docker.5m.py`) to your SwiftBar plugins directory.
    * You can adjust the name of the symlink to change the refresh interval (e.g., `docker.1m.py` for 1 minute).
 3. **Create a `config.json`** in the root directory of this project with the following content:
    ```json
